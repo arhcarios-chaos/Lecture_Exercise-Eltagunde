@@ -1,0 +1,7 @@
+.approval-list { margin-top: 20px; }
+.approval { display: grid; grid-template-columns: 1fr auto; gap: 24px; padding: 20px 0; border-top: 1px solid var(--line); }
+.approval h3 { font-size: 18px; margin: 12px 0 5px; }
+.approval p { line-height: 1.5; }
+.approval-actions { display: flex; align-items: flex-start; flex-wrap: wrap; gap: 8px; max-width: 190px; }
+.approval-actions .text { padding: 10px 0; width: 100%; text-align: center; }
+@media (max-width: 800px) { .approval { grid-template-columns: 1fr; } .approval-actions { max-width: none; } .approval-actions .text { width: auto; padding: 10px; } }
